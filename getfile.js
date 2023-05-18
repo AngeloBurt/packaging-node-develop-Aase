@@ -65,6 +65,10 @@ var getFiles = {
       throw Error("path不是以/结尾,请修改");
     }
   },
+  test: function () {
+    console.log("Output: getFiles => test");
+    return "Output: getFiles => test";
+  },
 };
 
 // fs.writeFile("./" + process.uptime() + ".json", JSON.stringify(getFiles.getFileList("./")), { flag: "wx" }, function (_err) {
