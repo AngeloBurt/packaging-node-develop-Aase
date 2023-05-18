@@ -13,22 +13,26 @@ function verifyType(name) {
     type = "mp4";
   } else if (/\.(m3u8)$/.test(name.toLowerCase())) {
     type = "m3u8";
-  } else if (/\.(txt)$/.test(name.toLowerCase())) {
-    type = "txt";
   } else if (/\.(ts)$/.test(name.toLowerCase())) {
     type = "ts";
-  } else if (/\.(pdf)$/.test(name.toLowerCase())) {
-    type = "pdf";
   } else if (/\.(doc|docx)$/.test(name.toLowerCase())) {
     type = "doc";
-  } else if (/\.(mp3)$/.test(name.toLowerCase())) {
-    type = "mp3";
+  } else if (/\.(exe)$/.test(name.toLowerCase())) {
+    type = "exe";
+  } else if (/\.(txt)$/.test(name.toLowerCase())) {
+    type = "txt";
+  } else if (/\.(pdf)$/.test(name.toLowerCase())) {
+    type = "txt";
   } else if (/\.(zip|7z|rar)$/.test(name.toLowerCase())) {
     type = "zip";
   } else if (/\.(js)$/.test(name.toLowerCase())) {
     type = "js";
+  } else if (/\.(php)$/.test(name.toLowerCase())) {
+    type = "php";
+  } else if (/\.(py)$/.test(name.toLowerCase())) {
+    type = "py";
   } else {
-    type = "luffy_other";
+    type = "other";
   }
   return type;
 }

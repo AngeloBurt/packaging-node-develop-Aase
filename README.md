@@ -11,6 +11,18 @@ npm install node-aase
 ## Usage
 
 ```
+// >= v1.0.10
+
+const { getFiles } = require("node-aase/getfile");
+
+// or
+
+const esa = require("node-aase/esa46");
+
+```
+
+```
+// < v1.0.10
 const aase = require("node-aase");
 
 var enc = aase.enc_base64("AngeloBurt");
