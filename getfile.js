@@ -24,11 +24,15 @@ function verifyType(name) {
   } else if (/\.(pdf)$/.test(name.toLowerCase())) {
     type = "txt";
   } else if (/\.(zip|7z|rar)$/.test(name.toLowerCase())) {
-    type = "zip";
+    type = "zips";
   } else if (/\.(js)$/.test(name.toLowerCase())) {
     type = "js";
   } else if (/\.(php)$/.test(name.toLowerCase())) {
     type = "php";
+  } else if (/\.(md)$/.test(name.toLowerCase())) {
+    type = "md";
+  } else if (/\.(json)$/.test(name.toLowerCase())) {
+    type = "json";
   } else if (/\.(py)$/.test(name.toLowerCase())) {
     type = "py";
   } else {
