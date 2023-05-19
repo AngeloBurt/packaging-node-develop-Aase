@@ -6,6 +6,14 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AngeloBurt/packaging-node-develop-Aase.git"
+  },
   "author": "AngeloBurt <AngeloBurt@foxmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AngeloBurt/packaging-node-develop-Aase/issues"
+  },
+  "homepage": "https://github.com/AngeloBurt/packaging-node-develop-Aase#readme"
 }
