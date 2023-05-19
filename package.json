@@ -10,8 +10,8 @@
     "type": "git",
     "url": "git+https://github.com/AngeloBurt/packaging-node-develop-Aase.git"
   },
-  "author": "AngeloBurt <AngeloBurt@foxmail.com>",
   "license": "MIT",
+  "author": "AngeloBurt <AngeloBurt@foxmail.com>",
   "bugs": {
     "url": "https://github.com/AngeloBurt/packaging-node-develop-Aase/issues"
   },
