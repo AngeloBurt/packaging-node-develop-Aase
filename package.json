@@ -1,6 +1,6 @@
 {
   "name": "node-aase",
-  "version": "1.0.15-2",
+  "version": "1.0.15-3",
   "description": "Node package for personal development",
   "main": "index.js",
   "scripts": {
