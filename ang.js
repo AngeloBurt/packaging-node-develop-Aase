@@ -3,10 +3,18 @@
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
 // 补齐.00
+// 转换类型为数字
+function isn(f, n = 0.0) {
+  if ([null, undefined, "", NaN, Infinity].includes(f)) {
+    return n;
+  }
+  return f && isNaN(Number(f)) ? n : Number(f);
+}
 module.exports = {
+  isn,
   fillZero: (_val, type = "toLocalString") => {
     let _vl = _val ? String(_val).replace(/,/gi, "") : "";
-    let val = fg.isn(_vl).toFixed(2);
+    let val = isn(_vl).toFixed(2);
     let sums_ts;
     if (type === "toLocalString") {
       sums_ts = Number(val).toLocaleString();

@@ -8,6 +8,12 @@ Node package for personal development
 npm install node-aase
 ```
 
+## updated version
+
+```
+npm version prerelease
+```
+
 ## Usage
 
 ```
