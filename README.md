@@ -45,3 +45,9 @@ console.log(clo_dec);// QW5nZWxvQnVydA==
 This is a simple package. There are still many imperfections.
 
 Please give us your advice. I wish you all the best.
+
+## updated log
+
+v1.0.16
+
+add Vue platform configure
