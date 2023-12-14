@@ -4,6 +4,7 @@
 // https://opensource.org/licenses/MIT
 // 补齐.00
 // 转换类型为数字
+
 function isn(f, n = 0.0) {
   // if ([null, undefined, "", NaN, Infinity].includes(f)) {
   //   return n;
