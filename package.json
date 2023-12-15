@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/AngeloBurt/packaging-node-develop-Aase/issues"
   },
-  "homepage": "https://github.com/AngeloBurt/packaging-node-develop-Aase#readme"
+  "homepage": "https://github.com/AngeloBurt/packaging-node-develop-Aase#readme",
+  "dependencies": {
+    "dayjs": "^1.11.10"
+  }
 }
